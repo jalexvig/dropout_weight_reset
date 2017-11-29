@@ -1,0 +1,4 @@
+python3 main.py dropout_replace
+python3 main.py dropout_no-replace --prob_keep_perm 1
+python3 main.py no-dropout_replace --prob_keep 1
+python3 main.py no-dropout_no-replace --prob_keep 1 --prob_keep_perm 1
